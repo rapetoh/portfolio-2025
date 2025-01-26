@@ -24,6 +24,16 @@ const ToolsCard = () => {
             desc: 'User Interface'
         },
         {
+            imgSrc: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg',
+            label: 'Bootstrap',
+            desc: 'User Interface'
+        },
+        {
+            imgSrc: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg',
+            label: 'Figma',
+            desc: 'User Interface'
+        },
+        {
             imgSrc: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg',
             label: 'NodeJS',
             desc: 'Web Server'
@@ -93,7 +103,12 @@ const ToolsCard = () => {
             label: 'Git',
             desc: 'Versioning Control'
         },
-        
+        {
+            imgSrc: 'https://img.icons8.com/?size=100&id=3sGOUDo9nJ4k&format=png&color=000000',
+            label: 'PowerBi',
+            desc: 'Data Analysis'
+        },
+  
     ];
 
     return (

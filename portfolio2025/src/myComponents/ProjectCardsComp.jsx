@@ -5,6 +5,7 @@ import portfolio2O24 from '../assets/images/portfolio 2024 image.png'
 import stageL2 from '../assets/images/Stage L2 project.png'
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import portfolio2025 from '../assets/images/portfolio2025.png'
 
 
 const ProjectCardsComp = () => {
@@ -36,6 +37,7 @@ const ProjectCardsComp = () => {
             type: [
                 'Frontend',
                 'Backend',
+                'APIs'
             ]
         },
         {
@@ -80,6 +82,29 @@ const ProjectCardsComp = () => {
                 'Frontend'
             ]
         },
+        
+        {
+            imgURL: portfolio2025,
+            projectName: 'Designed Personnal Portfolio',
+            projectDescription: [
+                'Created a new version of my portfolio leveraging React and Tailwind CSS',
+                'Focused on user experience and simplicity to keep it lightweight',
+                'Levaraged the power of React and Javascript to create a dynamic effects and animations',
+            ],
+            projectLink: '#',
+            projectRepo: '',
+            technologyImg: [
+                'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
+                'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',
+                'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
+                'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg',
+                'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg',
+            ],
+            type: [
+                'Frontend',
+            ]
+        },
+
         {
             imgURL: stageL2,
             projectName: 'Visits & Parking Management System',

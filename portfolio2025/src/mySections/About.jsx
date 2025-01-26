@@ -7,9 +7,9 @@ const About = () => {
     <div className='h-screen rounded-3xl flex flex-col justify-center items-center'>
       <div className='flex flex-col gap-4 mx-60 max-lg:mx-16 p-6 rounded-3xl bg-zinc-800'>
         <h1 className='text-zinc-300 font-semibold text-xl tracking-wider font-palanquin max-md:text-sm max-lg:text-md'> <img className='w-10 h-10 rounded-full my-2' src={available} alt="" />
-          I am a passionate Software Engineer specializing in web and mobile development, database management, data analysis, and problem-solving. I enjoy creating innovative solutions that address real-world challenges.
+          I am a passionate Software Developer specializing in web and mobile development, database management, data analysis, and problem-solving. I enjoy creating innovative solutions that address real-world challenges.
 
-          I have worked on impactful projects like biometric identification systems and data-driven applications. My goal is to continuously learn, grow, and contribute to building meaningful solutions in the tech industry.
+          I have worked on impactful projects whether front-end, back-end or fullstack like biometric identification systems and data-driven applications. My goal is to continuously learn, grow, and contribute to building meaningful solutions in the tech industry.
           
           Below you will find more details about my skills.
 

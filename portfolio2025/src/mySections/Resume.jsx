@@ -91,7 +91,7 @@ const Resume = () => {
         </div>
 
         <div className='col-start-2 row-start-3 bg-primary flex justify-start'>
-          <div className=' size-4 rounded-full bg-white my-[70px] mx-[-8px]'> </div>
+          <div className=' size-4 rounded-full bg-white my-[70px] mx-[-8px] z-10'> </div>
         </div>
 
 
@@ -106,6 +106,9 @@ const Resume = () => {
               </div>
               <div className='rounded-xl w-8 p-1 m-1 bg-zinc-400 max-lg:h-10'>
                 <img className='w-6' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" />
+              </div>
+              <div className='rounded-xl w-8 p-1 m-1 bg-zinc-400 max-lg:h-10'>
+                <img className='w-6' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
               </div>
           </div>
             </div>
